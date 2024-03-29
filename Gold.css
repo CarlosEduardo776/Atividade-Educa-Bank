@@ -5,3 +5,260 @@
 }
   
 
+#Cabeça {
+  padding: 50px;
+  color: beige;
+  flex-wrap: wrap;
+  background-color:  rgb(29, 28, 28);;
+  text-align: center;
+  padding: 70px;
+}
+
+.Nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+.Nav li{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+   }
+      
+   .Nav li a{
+    text-decoration: none; 
+    padding: 10px ; 
+    color: beige; 
+    border-radius: 5px;
+   }
+      
+   .Nav li :hover {
+    transition: 1s;
+    cursor: pointer;
+    color: aqua;
+   }
+
+
+#sec {
+padding: 150px;
+font-size: 20px ;
+background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+}
+
+#sec h2 {
+ margin-top: 50px;
+ font-size: 3em;
+ color: rgba(0, 0, 0, 0.822);
+ }
+
+#sec button {
+    padding: 20px; 
+    border-radius: 50px;
+    width: 20vw; 
+    cursor: pointer;
+    border-color: rgb(19, 153, 108); 
+    margin: 30px; 
+}
+
+#sec button a {
+    text-decoration: none;
+    color: #2693da; 
+    font-size: 15px; 
+}
+
+#sec p {
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+#sec button:hover {
+    background-color: rgb(90, 168, 168);
+    border-color: black; 
+    transition: 0.5s;
+}
+
+#sec button a:hover{
+    color: blue ;
+    transition: 0.8s;
+}
+
+#download {
+    padding: 100px; 
+    background-color: rgb(226, 233, 233);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#download button { 
+    padding: 20px; 
+    border-radius: 50px;
+    width: 20vw; 
+    cursor: pointer;
+    border-color: rgb(19, 153, 108); 
+    margin: 30px; 
+}
+
+
+#download p{ 
+    font-size: 3em;
+    text-decoration: none;
+}
+
+#download button:hover{
+    background-color: rgb(90, 168, 168);
+    border-color: black; 
+    transition: 0.5s;
+}
+
+#download button a {
+    text-decoration: none;
+    color: #2693da; 
+    font-size: 15px; 
+}
+
+#download button a:hover{
+    color: blue ;
+    transition: 0.8s;
+}
+
+#download img {
+    width: 450px; 
+    height: 450px; 
+    margin-left: 50px;
+    margin-top: -70px; 
+}
+
+
+#Sobre { 
+    padding: 40px; 
+    background-color: rgb(226, 233, 233);
+    flex-wrap: wrap; 
+}
+
+#Sobre h2 { 
+    font-size: 40px; 
+    color: rgb(34, 34, 74); 
+    text-align: center; 
+}
+
+#Sobre p { 
+    font-size: 20px;
+    margin-top: 30px; 
+    color: rgba(0, 0, 0, 0.781);
+    text-align: left; 
+}
+
+
+#Sobre button { 
+    padding: 20px; 
+    border-radius: 50px;
+    width: 20vw; 
+    cursor: pointer;
+    border-color: rgb(19, 153, 108); 
+    margin: 30px; 
+}
+   
+
+
+#Sobre button:hover{
+    background-color: rgb(90, 168, 168);
+    border-color: black; 
+    transition: 0.5s;
+}
+
+#Sobre button a {
+    text-decoration: none;
+    color: #2693da; 
+    font-size: 15px; 
+}
+
+#Sobre button a:hover{
+    color: blue ;
+    transition: 0.8s;
+}
+
+.linha { 
+    margin-top: 20px; 
+    margin-left: 190px;
+    width: 70%;
+}
+
+#Sobre img { 
+    margin-left: 350px; 
+    margin-top: 30px;
+    width: 400px; 
+}
+
+
+#container { 
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(); 
+   background-position: center; 
+   background-attachment: fixed; 
+    background-color:  #7bc4ed;
+    background-attachment: fixed;
+    padding: 260px; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+ }
+ 
+ 
+ #container img {
+     width: 290px; 
+     margin-top: 22px; 
+     height: auto;
+     flex-wrap: wrap;
+ }
+ 
+ #container h2 { 
+     
+     color: white; 
+     font-size: 30px;
+     text-align: center;
+ }
+ 
+ #container p { 
+     color: white;
+     font-size: 17px;
+     text-align: center;
+     margin-top: 20px;
+     margin-left: 10px; 
+ }
+ 
+#final {
+    padding: 80px; 
+    background-color: rgb(29, 28, 28);; 
+    text-align: center;
+
+}
+
+#final img { 
+    width: 150px; 
+    height: 80px; 
+    margin-top: -50px;
+    margin-bottom: 15px;
+}
+
+#final p { 
+    color: rgba(245, 245, 220, 0.5); 
+    font-size: 18px; 
+}
+
+.item-final { 
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.item-final a { 
+    color: rgba(255, 255, 255, 0.5); 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+.item-final a:hover{ 
+    color: rgba(232, 8, 202, 0.767); 
+    transition: 0.8s; 
+} 
