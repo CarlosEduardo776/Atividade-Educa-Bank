@@ -22,7 +22,7 @@
 .Nav li{
     display: flex;
     list-style: none;
-    font-size: 15px;
+    font-size: 1.5em;
    }
       
    .Nav li a{
@@ -42,7 +42,8 @@
 #sec {
 padding: 150px;
 font-size: 20px ;
-background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+background: rgb(255,143,37);
+background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 104, 3, 0.836) 100%);
 }
 
 #sec h2 {
@@ -62,8 +63,8 @@ background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 
 #sec button a {
     text-decoration: none;
-    color: #2693da; 
-    font-size: 15px; 
+    color: #2007ff; 
+    font-size: 1.5em; 
 }
 
 #sec p {
@@ -72,7 +73,7 @@ background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 }
 
 #sec button:hover {
-    background-color: rgb(90, 168, 168);
+    background-color: rgb(122, 178, 252);
     border-color: black; 
     transition: 0.5s;
 }
@@ -84,7 +85,7 @@ background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 
 #download {
     padding: 100px; 
-    background-color: rgb(226, 233, 233);
+    background-color:rgba(255, 104, 3, 0.836);
     display: flex;
     justify-content: space-around;
 }
@@ -103,18 +104,19 @@ background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 #download p{ 
     font-size: 3em;
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.781);
 }
 
 #download button:hover{
-    background-color: rgb(90, 168, 168);
+    background-color: rgb(122, 178, 252);
     border-color: black; 
     transition: 0.5s;
 }
 
 #download button a {
     text-decoration: none;
-    color: #2693da; 
-    font-size: 15px; 
+    color: #2007ff; 
+    font-size: 1.5em; 
 }
 
 #download button a:hover{
@@ -132,7 +134,7 @@ background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 
 #Sobre { 
     padding: 40px; 
-    background-color: rgb(226, 233, 233);
+    background-color: rgba(255, 104, 3, 0.836);
     flex-wrap: wrap; 
 }
 
@@ -143,7 +145,7 @@ background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 }
 
 #Sobre p { 
-    font-size: 20px;
+    font-size: 1.4em;
     margin-top: 30px; 
     color: rgba(0, 0, 0, 0.781);
     text-align: left; 
@@ -162,15 +164,15 @@ background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 
 
 #Sobre button:hover{
-    background-color: rgb(90, 168, 168);
+    background-color: rgb(122, 178, 252);
     border-color: black; 
     transition: 0.5s;
 }
 
 #Sobre button a {
     text-decoration: none;
-    color: #2693da; 
-    font-size: 15px; 
+    color: #2007ff; 
+    font-size: 1.5em; 
 }
 
 #Sobre button a:hover{
@@ -192,10 +194,10 @@ background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 
 
 #container { 
-    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(); 
-   background-position: center; 
-   background-attachment: fixed; 
-    background-color:  #7bc4ed;
+    background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 104, 3, 0.836) 100%), url(images/img\ cofre\ fundo.jpg); 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-color: #7bc4ed;
     background-attachment: fixed;
     padding: 260px; 
     display: flex;
@@ -234,8 +236,8 @@ background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 }
 
 #final img { 
-    width: 150px; 
-    height: 80px; 
+    width: 8em; 
+    height: 8rem; 
     margin-top: -50px;
     margin-bottom: 15px;
 }
