@@ -194,11 +194,11 @@ background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 10
 
 
 #container { 
-    background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 104, 3, 0.836) 100%), url(images/img\ cofre\ fundo.jpg); 
+    background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 104, 3, 0.836) 100%),
+    url(images/img\ cofre\ fundo.jpg); 
     background-position: center; 
     background-attachment: fixed; 
     background-color: #7bc4ed;
-    background-attachment: fixed;
     padding: 260px; 
     display: flex;
     align-items: center; 
