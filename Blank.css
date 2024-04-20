@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+  
 }
   
 
@@ -44,6 +45,7 @@ padding: 150px;
 font-size: 20px ;
 background: rgb(255,143,37);
 background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 104, 3, 0.836) 100%);
+
 }
 
 #sec h2 {
@@ -59,12 +61,15 @@ background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 10
     cursor: pointer;
     border-color: rgb(19, 153, 108); 
     margin: 30px; 
+    list-style: none;
 }
 
-#sec button a {
+
+#sec button a   {
     text-decoration: none;
     color: #2007ff; 
     font-size: 1.5em; 
+    list-style: none;
 }
 
 #sec p {
@@ -264,3 +269,22 @@ background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 10
     color: rgba(232, 8, 202, 0.767); 
     transition: 0.8s; 
 } 
+
+
+/* 480px */
+/* 767px */
+/* 991px */
+/* 1366px */
+/* 1920px */
+
+@media screen and (max-width: 1920px) {
+     /* alteração não necessária  */
+}
+
+@media screen and (max-width: 1366px) {
+    /* alteração não necessária  */
+}
+
+@media screen and (max-width: 991px) {
+    /* alteração não necessária  */
+}
