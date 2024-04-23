@@ -268,26 +268,92 @@ background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 10
 /* 1920px */
 
 @media screen and (max-width: 1920px) {
-  /* alteração não necessária  */
-}
+    /* alteração não necessária  */
+  }
 
-@media screen and (max-width: 1366px) {
-  /* alteração não necessária  */
-}
+  @media screen and (max-width: 1366px) {
+    /* alteração não necessária  */
+  }
 
-@media screen and (max-width: 991px) {
+  @media screen and (max-width: 991px) {
+    #Cabeça {
+      padding: 20px;
+    }
+
+    #sec {
+      padding: 100px;
+    }
+
+    #download {
+      padding: 100px;
+    }
+
+    #Sobre {
+      padding: 100px;
+    }
+
+    .linha {
+      margin-left: 20px;
+      width: 90%;
+    }
+
+    #container {
+      padding: 100px;
+    }
+
+  }
+
+  @media screen and (max-width: 767px) {
+    #Cabeça {
+      padding: 10px;
+    }
     
+    #sec {
+      padding: 50px;
+    }
 
-}
+    #download {
+      padding: 50px;
+    }
 
+    #Sobre {
+      padding: 50px;
+    }
 
+    .linha {
+      margin-left: 10px;
+      width: 95%;
+    }
 
-@media screen and (max-width: 767px) {
+    #container {
+      padding: 50px;
+    }
 
+  }
+  @media screen and (max-width: 480px) {
+    #Cabeça {
+      padding: 5px;
+    }
 
-}
+    #sec {
+      padding: 30px;
+    }
 
+    #download {
+      padding: 30px;
+    }
 
-@media screen and (max-width: 480px) {
+    #Sobre {
+      padding: 30px;
+    }
     
-}
+    .linha {
+      margin-left: 5px;
+      width: 100%;
+    }
+    
+    #container {
+      padding: 30px;
+    }
+
+  }
