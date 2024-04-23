@@ -305,17 +305,32 @@ background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 10
 
   @media screen and (max-width: 767px) {
     #Cabeça {
-      padding: 10px;
+      padding: 2em;
     }
     
     #sec {
       padding: 50px;
     }
 
+    #sec p {
+      font-size: 30px;
+    }
+
     #download {
       padding: 50px;
     }
 
+    #download p {
+    font-size: 30px;
+    }
+
+    #download img {
+      width: 350px; 
+      height: 350px; 
+      margin-left: 50px;
+      margin-top: -50px; 
+  }
+  
     #Sobre {
       padding: 50px;
     }
@@ -329,31 +344,105 @@ background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 10
       padding: 50px;
     }
 
+    #container img {
+      width: 200px; 
+
+ 
+ 
+  }
+  
   }
   @media screen and (max-width: 480px) {
     #Cabeça {
-      padding: 5px;
+      padding: 10px;
+    }
+
+    .Nav li {
+      font-size: 16px;
     }
 
     #sec {
       padding: 30px;
+    }
+    
+   #sec h2 {
+   font-size: 35px;
+   }
+
+    #sec p {
+      font-size: 20px;
+    }
+
+    #sec button {
+      font-size: 10.5px;
+      padding: 3px;
+      text-align: center;
     }
 
     #download {
       padding: 30px;
     }
 
+    #download button {
+      font-size: 11px;
+      padding: 3px;
+      text-align: center;
+    }
+
+    #download p {
+      font-size: 25px;
+    }
+
+    #download img {
+      width: 250px; 
+      height: 250px; 
+      margin-left: 50px;
+      margin-top: -20px; 
+  }
+  
+
     #Sobre {
       padding: 30px;
     }
+
+   #Sobre h2 {
+  font-size: 30px;
+  }
+
+    #Sobre p {
+      font-size: 18px;
+
+    }
     
+    #Sobre button {
+      font-size: 11px;
+      padding: 3px;
+      text-align: center;
+    }
+
     .linha {
       margin-left: 5px;
       width: 100%;
     }
-    
+
     #container {
       padding: 30px;
     }
+    
+    #container p {
+      font-size: 15px;
+    }
+    
+    #container h2 {
+    font-size: 20px;
+    }
 
+    #final p {
+    font-size: 12px;
+    }
+
+    #final img {
+      width: 100px; 
+      height: 100px;
+    }
   }
