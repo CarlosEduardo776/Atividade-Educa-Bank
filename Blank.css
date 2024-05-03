@@ -354,7 +354,7 @@ background: linear-gradient(180deg, rgba(13, 23, 161, 0.392) 8.33%, rgba(255, 10
   }
   @media screen and (max-width: 480px) {
     #Cabeça {
-      padding: 10px;
+      padding: 30px;
     }
 
     .Nav li {
